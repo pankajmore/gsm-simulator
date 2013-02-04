@@ -122,7 +122,7 @@ mhP mh mscPs = do
   -- choose 1st MSC as the Home MSC
   let homeMSC = head mscPs
   -- Status of homeMSC
-  getMSCStatus us homeMSC
+  -- getMSCStatus us homeMSC
   
   --monitor homeMSC 
   --send homeMSC (mh,123::Cell)
