@@ -3,19 +3,19 @@
 
 name:                gsm-simulator
 version:             0.1.0.0
-synopsis:            A GSM simulator written in Haskell for fun
+-- synopsis:            
 -- description:         
-homepage:            https://github.com/pankajmore/gsm-simulator
-license:             BSD3
+-- license:             
 license-file:        LICENSE
 author:              Pankaj More
 maintainer:          pankajm@cse.iitk.ac.in
 -- copyright:           
-category:            Testing
+-- category:            
 build-type:          Simple
 cabal-version:       >=1.8
 
 executable gsm-simulator
   -- main-is:             
   -- other-modules:       
-  build-depends:       base ==4.6.*
+  build-depends:       base ==4.6.*, distributed-process ==0.4.*, distributed-process-simplelocalnet ==0.2.*, binary ==0.5.*
+  hs-source-dirs:      src
